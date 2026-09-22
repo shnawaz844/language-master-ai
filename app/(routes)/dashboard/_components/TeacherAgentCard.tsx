@@ -22,7 +22,7 @@ function TeacherAgentCard({ TeacherAgent, onSelect }: Props) {
   const router = useRouter();
   const { has } = useAuth();
 
-  // Direct start with default English/Hindi
+  // Direct start with default English/Hindi **
   const onStartLesson = async (e?: React.MouseEvent) => {
     if (e) e.stopPropagation();
     if (onSelect) {
