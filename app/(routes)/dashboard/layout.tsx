@@ -7,11 +7,11 @@ function DashboardLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <div>
+        <div className="min-h-screen flex flex-col bg-[#070708]">
             <AppHeader />
-            <div className='px-10 md:px-20 lg:px-40 py-10'>
+            <main className='w-full flex-1 flex flex-col min-h-0'>
                 {children}
-            </div>
+            </main>
         </div>
     )
 }
